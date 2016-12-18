@@ -1,0 +1,59 @@
+.nav
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 999
+  display: flex
+  justify-content: space-between
+  height: 70px
+  width: 100%
+  background: #f24043
+  color: white
+  &__logo
+    align-self: center
+    margin-left: 133px
+    font-size: 25px
+    &--link
+      cursor: pointer
+    &--name
+      font-size: 22px
+      font-weight: 600
+      display: inline-block
+    &--subname
+      margin-left: 6px
+      font-size: 14px
+      font-weight: $fontWeight--regular
+  &__user
+    display: flex
+    margin: auto 54px
+    &--name
+      font-size: 12px
+    &--status
+      margin-left: 55px
+      font-size: 18px
+      cursor: pointer
+      align-self: center
+      &:hover
+        opacity: .8
+
+.username
+  display: flex
+  flex-direction: column
+  &__img
+    align-self: center
+    display: flex
+    justify-content: center
+    align-items: center
+    align-content: center
+    background: #893154
+    width: 32px
+    height: 32px
+    border-radius: 50%
+    font-size: 20px
+    font-weight: $fontWeight--medium
+    text-transform: uppercase
+  &__text
+    margin-top: 3px
+    font-size: 12px
+    font-weight: $fontWeight--regular
+    text-align: center

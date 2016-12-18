@@ -1,0 +1,48 @@
+.notification
+  position: absolute
+  top: 32px
+  left: 0
+  height: 36px
+  width: 100%
+  line-height: 36px
+  &--blue
+    background: #d4f7fc
+    border-top: solid 1px #75c5d7
+    border-bottom: solid 1px #75c5d7
+    color: #1a4f73
+  &--green
+    background: #d9fdbf
+    border-top: solid 1px #3f932b
+    border-bottom: solid 1px #3f932b
+    color: #214d16
+  &--anm
+    -webkit-animation: slidein 5s ease-out 1s 1
+  &__emoji
+    display: inline-block
+    vertical-align: sub
+    margin-left: 133px
+    width: 20px
+    height: 20px
+    &--smile
+      background-image: url(../images/ic_Welcome.svg)
+    &--success
+      background-image: url(../images/ic_Successful.svg)
+  &__msg
+    display: inline-block
+    margin-left: 10px
+    &--bold
+      font-weight: 600
+
+@keyframes slidein
+  0%
+    transform: translate(0, 0)
+    opacity: 1
+  10%
+    transform: translate(0, 38px)
+
+  80%
+    transform: translate(0, 38px)
+    opacity: 1
+  100%
+    transform: translate(0, 0)
+    opacity: 0

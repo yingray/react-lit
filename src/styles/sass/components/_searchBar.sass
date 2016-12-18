@@ -1,0 +1,61 @@
+//.c-searchBar
+//  float: left
+//  position: relative
+//  &__input
+//    transition: all .5s ease 0s
+//    border: 0
+//    border-bottom: solid 2px #dfdfdf
+//    width: 290px
+//    height: 30px
+//    &:focus
+//      outline: none // Remove blue outline on Apple Devices - yingray
+//      border-bottom: solid 2px #bababa
+//  &__icon
+//    transition: all .5s ease 0s
+//    position: absolute
+//    top: 5px
+//    left: 0
+//    width: 20px
+//    height: 20px
+//    background-image: url(../images/ic_Search.svg)
+//    background-size: cover
+//    &.--active
+//      left: 270px
+
+
+.searchBar
+  position: relative
+  &__input
+    transition: all .5s ease 0s
+    border: 0
+    border-bottom: solid 1px #dfdfdf
+    padding-left: 15px
+    width: 290px
+    height: 38px
+    :-webkit-input-placeholder
+      font-size: 13px
+      color: red
+    ::-moz-placeholder
+      font-size: 13px
+      color: red
+    :-ms-input-placeholder
+      font-size: 13px
+      color: #bababa
+    :-moz-placeholder
+      font-size: 13px
+      color: red
+    &:focus
+      outline: none
+      padding-left: 0
+      border-bottom: solid 1px #bababa
+  &__icon
+    transition: all .5s ease 0s
+    position: absolute
+    top: 8px
+    left: 0
+    width: 20px
+    height: 20px
+    background-image: url(../images/ic_Search.svg)
+    background-size: cover
+    &.--active
+      left: 270px

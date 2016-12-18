@@ -1,0 +1,36 @@
+.login
+  background: $bcg--login
+  min-height: 100vh
+
+  &__title
+    text-align: center
+    font-size: $fontSize__title--login
+    color: $title_login--color
+    font-weight: $fontWeight--medium
+    margin-top: 100px
+    margin-bottom: 73px
+
+  &__inputArea
+    margin: 0 auto
+    width: 300px
+    &--bottom1
+      margin-bottom: 30px
+    &--bottom2
+      margin-bottom: 54px
+    &--errorBottom
+      margin-bottom: 10px
+    &__label
+      display: block
+      font-size: $fontSize__label__input
+      margin-bottom: 6px
+  &__error
+    margin: 0 auto
+    width: 300px
+    font-size: 12px
+    margin-bottom: 30px
+    color: $color_login--error
+  &__btn
+    display: flex
+    justify-content: center
+
+  @include respond-to('medium')

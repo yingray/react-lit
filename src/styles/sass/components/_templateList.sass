@@ -1,0 +1,97 @@
+.c-templateList
+  &__header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 20px 20px 20px
+    margin: 20px auto 0
+    height: 75px
+    width: 1184px
+
+  &__body
+  &__item
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 20px 20px 20px
+    margin: 20px auto
+    height: 75px
+    width: 1184px
+    background-color: white
+    border: solid 1px white
+    &:hover
+      border: solid 1px #ff7b7e
+    &_child
+      &1
+        width: 20px
+      &2
+        width: 180px
+        font-size: 16px
+        color: #4c4c4c
+        cursor: pointer
+      &3
+        width: 150px
+        font-size: 13px
+        color: #898989
+        cursor: pointer
+      &4
+        width: 130px
+        font-size: 13px
+        color: #898989
+        cursor: pointer
+      &5
+        width: 160px
+        font-size: 13px
+        color: #bababa
+        cursor: pointer
+      &6
+        width: 180px
+        font-size: 13px
+        color: #898989
+        cursor: pointer
+      &7
+        width: 100px
+        font-size: 13px
+        color: #898989
+        cursor: pointer
+      &--header
+        font-size: 13px
+        color: #bababa
+    &.--header
+      font-size: 13px
+      color: #bababa
+      height: 40px
+      background-color: transparent
+      border: solid 1px transparent
+    &.--active
+      border: solid 1px red
+  &__checkbox
+    display: inline-block
+    width: 16px
+    height: 16px
+    padding: 1px 0
+    vertical-align: text-bottom
+    background-image: url(../images/ic_Checkbox.svg)
+    background-size: cover
+    cursor: pointer
+    &__text
+      display: inline-block
+      margin: 0 0 0 12px
+      padding-right: 15px
+      font-size: 16px
+      color: #777
+      vertical-align: middle
+      border-right: 1.2px solid #ddd
+    &.--active
+      background-image: url(../images/ic_Checked.svg)
+  &__trashcan
+    display: inline-block
+    width: 18px
+    height: 18px
+    margin-left: 26px
+    background-image: url(../images/ic_Trashcan_disable.svg)
+    background-size: cover
+    vertical-align: text-bottom
+    &.--active
+      cursor: pointer
+      background-image: url(../images/ic_Trashcan.svg)

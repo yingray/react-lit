@@ -1,0 +1,23 @@
+$breakpoints: (
+'medium': (min-width: 800px),
+'large': (min-width: 1000px),
+'huge': (min-width: 1200px),
+);
+
+// Colors
+$header_font_color: white;
+$title_login--color: #4c4c4c;
+$color_input--placeholder: #bababa;
+
+$bcg--login: #f8f8f8;
+$color_login--error: #f24043;
+
+// Font Size
+$fontSize__title--login: 38px;
+$fontSize__label__input: 18px;
+
+
+// Font wight
+$fontWeight--regular: 300;
+$fontWeight--medium: 400;
+$fontWeight--bold: 600;
